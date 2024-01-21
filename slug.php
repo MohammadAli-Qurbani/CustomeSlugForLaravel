@@ -2,7 +2,7 @@
 
 namespace App\CustomeSlug;
 
-class CustomeSlug
+trait CustomeSlug
 {
 
     public static function myCustomeSlug(Object $model, String $SlugAble,bool $useForUpdate=false): string
